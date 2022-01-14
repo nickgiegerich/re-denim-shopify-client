@@ -29,20 +29,20 @@ function SEO({ title }) {
 
       <link rel="manifest" href="/manifest.json" />
       <link
-        href="/icons/icon-16x16.png"
+        href="/icons/favicon-16x16.png"
         rel="icon"
         type="image/png"
         sizes="16x16"
         purpose="any maskable"
       />
       <link
-        href="/icons/icon-32x32.png"
+        href="/icons/favicon-32x32.png"
         rel="icon"
         type="image/png"
         sizes="32x32"
         purpose="any maskable"
       />
-      <link rel="apple-touch-icon" href="/apple-icon.png"></link>
+      <link rel="apple-touch-icon" href="/apple-touch-icon.png"></link>
       <meta name="theme-color" content="#EF4444" />
     </Head>
   )

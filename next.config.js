@@ -7,9 +7,9 @@ module.exports = withPWA({
     disable: process.env.NODE_ENV === 'development',
   },
   env: {
-    siteTitle: 'Doggy Stickers',
+    siteTitle: 'Re-Denim',
     siteDescription: 'Get some Doggy Stickers!',
-    siteKeywords: 'dog, stickers, fun',
+    siteKeywords: 'denim, tailoring, alterations, embroidery, patches',
     siteUrl: 'https://www.doggystickers.xyz',
     siteImagePreviewUrl: '/images/main.jpg',
     twitterHandle: '@deepwhitman'

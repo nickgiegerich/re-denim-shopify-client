@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import { useCartContext, useAddToCartContext } from '@/context/Store'
 
-function ProductForm({ title, handle, variants, setVariantPrice, mainImg }) {
+function ProductForm({ title, handle, variants, totalInventory, setVariantPrice, mainImg }) {
   const [quantity, setQuantity] = useState(1)
   const [variantId, setVariantId] = useState(variants[0].node.id)
   const [variant, setVariant] = useState(variants[0])
@@ -38,7 +38,8 @@ function ProductForm({ title, handle, variants, setVariantPrice, mainImg }) {
         variantId: varId,
         variantPrice: variant.node.price,
         variantTitle: variant.node.title,
-        variantQuantity: quantity
+        variantQuantity: quantity, 
+        totalInventory: totalInventory
       })
     }
   }
@@ -46,7 +47,7 @@ function ProductForm({ title, handle, variants, setVariantPrice, mainImg }) {
   function updateQuantity(e) {
     if (e === '') {
       setQuantity('')
-    } else {
+    } else if (e <= totalInventory) {
       setQuantity(Math.floor(e))
     }
   }
@@ -62,6 +63,7 @@ function ProductForm({ title, handle, variants, setVariantPrice, mainImg }) {
             id="quantity"
             name="quantity"
             min="1"
+            max={totalInventory}
             step="1"
             value={quantity}
             onChange={(e) => updateQuantity(e.target.value)}

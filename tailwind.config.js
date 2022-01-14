@@ -12,10 +12,13 @@ module.exports = {
       }),
       colors: {
         palette: {
-          lighter: '#F5F3FF',
-          light: '#DDD6FE',
-          primary: '#5B21B6',
-          dark: '#4C1D95',
+          lighter: '#F0FFFF',
+          // light: '#DDD6FE',
+          light: '#BBBCBE',
+          primary: '#01CDA9',
+          dark: '#332D4F',
+          // primary: '#5B21B6', ORIGINAL
+          // dark: '#4C1D95', ORIGINAL
         },
       },
       fontFamily: {

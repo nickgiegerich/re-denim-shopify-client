@@ -88,7 +88,8 @@ export function CartProvider({ children }) {
     }
     let newCart = [...cart]
     newCart.forEach(item => {
-      if (item.variantId === id) {
+      if (item.variantId === id && newQuantity <= item.totalInventory) {
+        console.log('item in cart: ', item)
         item.variantQuantity = newQuantity
       }
     })
