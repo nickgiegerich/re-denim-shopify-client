@@ -7,12 +7,12 @@ module.exports = withPWA({
     disable: process.env.NODE_ENV === 'development',
   },
   env: {
-    siteTitle: 'Rē Denim',
-    siteDescription: 'Get some Doggy Stickers!',
+    siteTitle: 'Re-Denim',
+    siteDescription: 'Repurposed clothing made from denim!',
     siteKeywords: 'denim, tailoring, alterations, embroidery, patches',
-    siteUrl: 'https://www.doggystickers.xyz',
-    siteImagePreviewUrl: '/images/main.jpg',
-    twitterHandle: '@deepwhitman'
+    siteUrl: 'https://www.re-denim.com',
+    siteImagePreviewUrl: '/icon.png',
+    // twitterHandle: ''
   },
   images: {
     domains: ['cdn.shopify.com'],
