@@ -3,7 +3,7 @@ import { faHeart } from '@fortawesome/free-solid-svg-icons'
 
 function Footer() {
   return (
-    <footer id="footer" className="py-4 text-2xl flex justify-center font-primary items-center">
+    <footer id="footer" className="py-4 text-2xl flex justify-center text-center font-primary items-center bg-palette-lighter flex-wrap">
       {/* Built with <FontAwesomeIcon icon={faHeart} className="w-5 text-red-600 mx-1" /> by{' '}
       <a
         href="https://twitter.com/deepwhitman"

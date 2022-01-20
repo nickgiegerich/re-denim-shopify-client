@@ -1,0 +1,26 @@
+<svg id="Component_2_1" data-name="Component 2 – 1" xmlns="http://www.w3.org/2000/svg" width="814.364" height="754.396" viewBox="0 0 814.364 754.396">
+  <g id="Polygon_1" data-name="Polygon 1" transform="translate(87.327 397.655) rotate(-166)">
+    <path d="M 81.1810302734375 108 L 8.818965911865234 108 L 45 16.34138107299805 L 81.1810302734375 108 Z" stroke="none"/>
+    <path d="M 45 32.68273162841797 L 17.63792419433594 102 L 72.36207580566406 102 L 45 32.68273162841797 M 45 0 L 90 114 L 0 114 L 45 0 Z" stroke="none" fill="#000"/>
+  </g>
+  <g id="Component_1_1" data-name="Component 1 – 1" transform="translate(42.364)">
+    <g id="Ellipse_1" data-name="Ellipse 1" fill="none" stroke="#000" stroke-width="30">
+      <ellipse cx="386" cy="366" rx="386" ry="366" stroke="none"/>
+      <ellipse cx="386" cy="366" rx="371" ry="351" fill="none"/>
+    </g>
+    <g id="Path_1" data-name="Path 1" transform="translate(553.433 628.984) rotate(65)">
+      <path d="M 73.43769073486328 115.3472595214844 L 8.353642463684082 115.3472595214844 L 40.89566802978516 18.78727149963379 L 58.18542861938477 70.09014892578125 L 73.43769073486328 115.3472595214844 Z" stroke="none"/>
+      <path d="M 40.89566421508789 37.57460021972656 L 16.70731353759766 109.3472366333008 L 65.08401489257812 109.3472366333008 L 40.89566421508789 37.57460021972656 M 40.89566802978516 -1.52587890625e-05 L 81.79133605957031 121.3472366333008 L 0 121.3472366333008 L 40.89566802978516 -1.52587890625e-05 Z" stroke="none" fill="#000"/>
+    </g>
+    <g id="Polygon_2" data-name="Polygon 2" transform="translate(606.368 135.114) rotate(-47)">
+      <path d="M 63.09790802001953 84.41815185546875 L 22.8222484588623 84.41815185546875 L 42.9600715637207 37.81520080566406 L 63.09790802001953 84.41815185546875 Z" stroke="none"/>
+      <path d="M 42.96006774902344 -7.62939453125e-06 L 85.92015075683594 99.41815185546875 L -1.52587890625e-05 99.41815185546875 L 42.96006774902344 -7.62939453125e-06 Z" stroke="none" fill="#000"/>
+    </g>
+    <text id="R" transform="translate(190 431)" font-size="251" font-family="Skia" font-weight="700"><tspan x="0" y="0">R</tspan></text>
+    <text id="D" transform="translate(392 439)" font-size="261" font-family="Skia" font-weight="700"><tspan x="0" y="0">D</tspan></text>
+    <text id="Re" transform="translate(287 173)" font-size="140" font-family="Skia" font-weight="700"><tspan x="0" y="0">Re</tspan></text>
+    <text id="Denim" transform="translate(152 617)" font-size="140" font-family="Skia" font-weight="700"><tspan x="0" y="0">Denim</tspan></text>
+    <line id="Line_1" data-name="Line 1" x2="470" y2="1" transform="translate(151 213.5)" fill="none" stroke="#000" stroke-width="20"/>
+    <line id="Line_2" data-name="Line 2" x2="470" y2="1" transform="translate(151 497.583)" fill="none" stroke="#000" stroke-width="20"/>
+  </g>
+</svg>

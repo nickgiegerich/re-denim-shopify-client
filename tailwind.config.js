@@ -12,11 +12,11 @@ module.exports = {
       }),
       colors: {
         palette: {
-          lighter: '#F0FFFF',
+          lighter: '#BEBEBE',
           // light: '#DDD6FE',
-          light: '#BBBCBE',
-          primary: '#01CDA9',
-          dark: '#332D4F',
+          light: '#676767',
+          primary: '#080808',
+          dark: '#141414',
           // primary: '#5B21B6', ORIGINAL
           // dark: '#4C1D95', ORIGINAL
         },
