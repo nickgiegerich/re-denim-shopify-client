@@ -19,7 +19,7 @@ function ProductImage({ images }) {
           src={mainImg.originalSrc}
           alt={mainImg.altText}
           layout="fill"
-          className="transform duration-500 ease-in-out hover:scale-105"
+          className="transform object-cover duration-500 ease-in-out hover:scale-105"
         />
       </div>
       <div className="relative flex border-t border-palette-lighter">
@@ -48,7 +48,7 @@ function ProductImage({ images }) {
                 src={imgItem.node.originalSrc}
                 alt={imgItem.node.altText}
                 layout="fill"
-                className=""
+                className="object-cover"
               />
             </button>
           ))}

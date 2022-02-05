@@ -22,7 +22,7 @@ function ProductCard({ product }) {
             src={imageNode.originalSrc}
             alt={imageNode.altText}
             layout="fill"
-            className="transform duration-500 ease-in-out hover:scale-110"
+            className="transform object-cover duration-500 ease-in-out hover:scale-110"
           />
         </div>
         <div className="h-48 relative">
