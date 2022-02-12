@@ -21,3 +21,9 @@ html {
   border: 1em solid transparent;
   border-left-color: #ffffff;
 }
+
+.bg-hero { 
+  background-image: url('../public/images/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
