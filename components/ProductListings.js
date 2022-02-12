@@ -2,7 +2,7 @@ import ProductCard from "@/components/ProductCard";
 
 function ProductListings({ products }) {
   return (
-    <div className="mt-20 md:mt-10">
+    <div className="mt-20 md:mt-10 block">
       <div className="text-center text-4xl font-primary font-semibold">
         Our Current Collection
       </div>

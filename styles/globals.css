@@ -23,7 +23,8 @@ html {
 }
 
 .bg-hero { 
-  background-image: url('../public/images/hero.jpg');
+  background-image: url('../public/images/hero2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: bottom;
 }
