@@ -19,8 +19,8 @@ function StoreHeading() {
         <div className="w-full text-center mt-20">
           <span className="text-6xl font-primary font-semibold leading-relaxed">Why Us?</span>
         </div>
-        <div className="w-full text-righ md:mt-20 px-10">
-          <span className="text-2xl leading-relaxed">
+        <div className="w-full text-center md:text-left md:mt-20 px-10">
+          <span className="text-2xl   leading-relaxed">
             At ReDenim each creation is unique, no two creations are identical.
             This uniqueness is driven by the fact that no two pairs of jeans are
             the same size, shape, or patena. Truly one of a kind creations that
