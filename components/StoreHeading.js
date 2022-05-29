@@ -2,8 +2,8 @@ import PageTitle from "@/components/PageTitle";
 
 function StoreHeading() {
   return (
-    <div className="h-screen">
-      <div className="bg-hero rounded-lg h-1/3 md:h-1/2">
+    <div>
+      <div className="bg-hero rounded-lg" style={{height: '50vh'}}>
         <PageTitle text="more than just bags." />
         {/* <p className="max-w-xl text-center px-2 mx-auto text-lg font-normal text-gray-100">
           Denim Re-purposed into Fashionable Accessories <br />
@@ -15,7 +15,7 @@ function StoreHeading() {
           Totes, Satchels, Carry-ons, Purses, Packs and more!
         </p> */}
       </div>
-      <div className="h-2/3 md:h-1/2 flex flex-col md:flex-row justify-evenly">
+      <div className="flex flex-col md:flex-row justify-evenly">
         <div className="w-full text-center mt-20">
           <span className="text-6xl font-primary font-semibold leading-relaxed">Why Us?</span>
         </div>
